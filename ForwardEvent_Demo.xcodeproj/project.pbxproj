@@ -9,48 +9,31 @@
 /* Begin PBXBuildFile section */
 		68C3923B1A663B59003B03F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C3923A1A663B59003B03F8 /* main.m */; };
 		68C3923E1A663B59003B03F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C3923D1A663B59003B03F8 /* AppDelegate.m */; };
-		68C392411A663B59003B03F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C392401A663B59003B03F8 /* ViewController.m */; };
-		68C392441A663B59003B03F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C392421A663B59003B03F8 /* Main.storyboard */; };
+		68C392411A663B59003B03F8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C392401A663B59003B03F8 /* MainViewController.m */; };
 		68C392461A663B59003B03F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C392451A663B59003B03F8 /* Images.xcassets */; };
 		68C392491A663B59003B03F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C392471A663B59003B03F8 /* LaunchScreen.xib */; };
-		68C392551A663B5A003B03F8 /* ReadingTogetherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C392541A663B5A003B03F8 /* ReadingTogetherTests.m */; };
+		68C392601A664A70003B03F8 /* MagicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C3925F1A664A70003B03F8 /* MagicView.m */; };
+		68C392631A664BD2003B03F8 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C392621A664BD2003B03F8 /* UIView+Size.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		68C3924F1A663B5A003B03F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 68C3922D1A663B59003B03F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68C392341A663B59003B03F8;
-			remoteInfo = ReadingTogether;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		68C392351A663B59003B03F8 /* ReadingTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C392351A663B59003B03F8 /* ForwardEvent_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForwardEvent_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C392391A663B59003B03F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68C3923A1A663B59003B03F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68C3923C1A663B59003B03F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68C3923D1A663B59003B03F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		68C3923F1A663B59003B03F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		68C392401A663B59003B03F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		68C392431A663B59003B03F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68C3923F1A663B59003B03F8 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		68C392401A663B59003B03F8 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		68C392451A663B59003B03F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		68C392481A663B59003B03F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		68C3924E1A663B5A003B03F8 /* ReadingTogetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadingTogetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		68C392531A663B5A003B03F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68C392541A663B5A003B03F8 /* ReadingTogetherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadingTogetherTests.m; sourceTree = "<group>"; };
+		68C3925E1A664A70003B03F8 /* MagicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicView.h; sourceTree = "<group>"; };
+		68C3925F1A664A70003B03F8 /* MagicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicView.m; sourceTree = "<group>"; };
+		68C392611A664BD2003B03F8 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		68C392621A664BD2003B03F8 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		68C392321A663B59003B03F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68C3924B1A663B5A003B03F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,8 +46,7 @@
 		68C3922C1A663B59003B03F8 = {
 			isa = PBXGroup;
 			children = (
-				68C392371A663B59003B03F8 /* ReadingTogether */,
-				68C392511A663B5A003B03F8 /* ReadingTogetherTests */,
+				68C392371A663B59003B03F8 /* ForwardEvent_Demo */,
 				68C392361A663B59003B03F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,24 +54,27 @@
 		68C392361A663B59003B03F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68C392351A663B59003B03F8 /* ReadingTogether.app */,
-				68C3924E1A663B5A003B03F8 /* ReadingTogetherTests.xctest */,
+				68C392351A663B59003B03F8 /* ForwardEvent_Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68C392371A663B59003B03F8 /* ReadingTogether */ = {
+		68C392371A663B59003B03F8 /* ForwardEvent_Demo */ = {
 			isa = PBXGroup;
 			children = (
 				68C3923C1A663B59003B03F8 /* AppDelegate.h */,
 				68C3923D1A663B59003B03F8 /* AppDelegate.m */,
-				68C3923F1A663B59003B03F8 /* ViewController.h */,
-				68C392401A663B59003B03F8 /* ViewController.m */,
-				68C392421A663B59003B03F8 /* Main.storyboard */,
+				68C3923F1A663B59003B03F8 /* MainViewController.h */,
+				68C392401A663B59003B03F8 /* MainViewController.m */,
+				68C3925E1A664A70003B03F8 /* MagicView.h */,
+				68C3925F1A664A70003B03F8 /* MagicView.m */,
+				68C392611A664BD2003B03F8 /* UIView+Size.h */,
+				68C392621A664BD2003B03F8 /* UIView+Size.m */,
 				68C392451A663B59003B03F8 /* Images.xcassets */,
 				68C392471A663B59003B03F8 /* LaunchScreen.xib */,
 				68C392381A663B59003B03F8 /* Supporting Files */,
 			);
+			name = ForwardEvent_Demo;
 			path = ReadingTogether;
 			sourceTree = "<group>";
 		};
@@ -102,29 +87,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		68C392511A663B5A003B03F8 /* ReadingTogetherTests */ = {
-			isa = PBXGroup;
-			children = (
-				68C392541A663B5A003B03F8 /* ReadingTogetherTests.m */,
-				68C392521A663B5A003B03F8 /* Supporting Files */,
-			);
-			path = ReadingTogetherTests;
-			sourceTree = "<group>";
-		};
-		68C392521A663B5A003B03F8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				68C392531A663B5A003B03F8 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68C392341A663B59003B03F8 /* ReadingTogether */ = {
+		68C392341A663B59003B03F8 /* ForwardEvent_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68C392581A663B5A003B03F8 /* Build configuration list for PBXNativeTarget "ReadingTogether" */;
+			buildConfigurationList = 68C392581A663B5A003B03F8 /* Build configuration list for PBXNativeTarget "ForwardEvent_Demo" */;
 			buildPhases = (
 				68C392311A663B59003B03F8 /* Sources */,
 				68C392321A663B59003B03F8 /* Frameworks */,
@@ -134,28 +102,10 @@
 			);
 			dependencies = (
 			);
-			name = ReadingTogether;
+			name = ForwardEvent_Demo;
 			productName = ReadingTogether;
-			productReference = 68C392351A663B59003B03F8 /* ReadingTogether.app */;
+			productReference = 68C392351A663B59003B03F8 /* ForwardEvent_Demo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		68C3924D1A663B5A003B03F8 /* ReadingTogetherTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 68C3925B1A663B5A003B03F8 /* Build configuration list for PBXNativeTarget "ReadingTogetherTests" */;
-			buildPhases = (
-				68C3924A1A663B5A003B03F8 /* Sources */,
-				68C3924B1A663B5A003B03F8 /* Frameworks */,
-				68C3924C1A663B5A003B03F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				68C392501A663B5A003B03F8 /* PBXTargetDependency */,
-			);
-			name = ReadingTogetherTests;
-			productName = ReadingTogetherTests;
-			productReference = 68C3924E1A663B5A003B03F8 /* ReadingTogetherTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,13 +119,9 @@
 					68C392341A663B59003B03F8 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					68C3924D1A663B5A003B03F8 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 68C392341A663B59003B03F8;
-					};
 				};
 			};
-			buildConfigurationList = 68C392301A663B59003B03F8 /* Build configuration list for PBXProject "ReadingTogether" */;
+			buildConfigurationList = 68C392301A663B59003B03F8 /* Build configuration list for PBXProject "ForwardEvent_Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68C392341A663B59003B03F8 /* ReadingTogether */,
-				68C3924D1A663B5A003B03F8 /* ReadingTogetherTests */,
+				68C392341A663B59003B03F8 /* ForwardEvent_Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68C392441A663B59003B03F8 /* Main.storyboard in Resources */,
 				68C392491A663B59003B03F8 /* LaunchScreen.xib in Resources */,
 				68C392461A663B59003B03F8 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68C3924C1A663B5A003B03F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,39 +156,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68C392411A663B59003B03F8 /* ViewController.m in Sources */,
+				68C392411A663B59003B03F8 /* MainViewController.m in Sources */,
+				68C392631A664BD2003B03F8 /* UIView+Size.m in Sources */,
+				68C392601A664A70003B03F8 /* MagicView.m in Sources */,
 				68C3923E1A663B59003B03F8 /* AppDelegate.m in Sources */,
 				68C3923B1A663B59003B03F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68C3924A1A663B5A003B03F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68C392551A663B5A003B03F8 /* ReadingTogetherTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		68C392501A663B5A003B03F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 68C392341A663B59003B03F8 /* ReadingTogether */;
-			targetProxy = 68C3924F1A663B5A003B03F8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		68C392421A663B59003B03F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68C392431A663B59003B03F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		68C392471A663B59003B03F8 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,7 +262,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReadingTogether/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ForwardEvent_Demo;
 			};
 			name = Debug;
 		};
@@ -357,48 +272,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReadingTogether/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		68C3925C1A663B5A003B03F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReadingTogetherTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadingTogether.app/ReadingTogether";
-			};
-			name = Debug;
-		};
-		68C3925D1A663B5A003B03F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ReadingTogetherTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadingTogether.app/ReadingTogether";
+				PRODUCT_NAME = ForwardEvent_Demo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68C392301A663B59003B03F8 /* Build configuration list for PBXProject "ReadingTogether" */ = {
+		68C392301A663B59003B03F8 /* Build configuration list for PBXProject "ForwardEvent_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68C392561A663B5A003B03F8 /* Debug */,
@@ -407,19 +288,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68C392581A663B5A003B03F8 /* Build configuration list for PBXNativeTarget "ReadingTogether" */ = {
+		68C392581A663B5A003B03F8 /* Build configuration list for PBXNativeTarget "ForwardEvent_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68C392591A663B5A003B03F8 /* Debug */,
 				68C3925A1A663B5A003B03F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		68C3925B1A663B5A003B03F8 /* Build configuration list for PBXNativeTarget "ReadingTogetherTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68C3925C1A663B5A003B03F8 /* Debug */,
-				68C3925D1A663B5A003B03F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  ReadingTogether
 //
 //  Created by WeiHan on 1/14/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
 
 @end

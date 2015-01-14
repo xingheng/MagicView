@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ReadingTogether.xcodeproj">
+      location = "self:ForwardEvent_Demo.xcodeproj">
    </FileRef>
 </Workspace>
