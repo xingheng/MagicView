@@ -22,9 +22,11 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     MagicView *rView = [[MagicView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, self.view.height / 2)];
+    rView.identifier = @"**V1**";
     [self.view addSubview:rView];
     
     rView = [[MagicView alloc] initWithFrame:CGRectMake(0, self.view.bottom / 2, self.view.width, self.view.height / 2)];
+    rView.identifier = @"**V2**";
     [self.view addSubview:rView];
 }
 

@@ -37,13 +37,20 @@
     {
         self.backgroundColor = [UIColor lightGrayColor];
         self.clipsToBounds = YES;
-        [self initAction];
         
         resultLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 300, 50)];
         resultLabel.textColor = [UIColor blueColor];
         resultLabel.font = [UIFont systemFontOfSize:20];
         resultLabel.text = @"(Result)";
         [self addSubview:resultLabel];
+        
+        
+        [self addTarget:self action:@selector(triggerEvent:) forControlEvents:UIControlEventAllEvents];
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(triggerNotification:)
+                                                     name:kStrAllEventsNotification
+                                                   object:nil];
     }
     return self;
 }
@@ -67,7 +74,7 @@
     paragraphStyle.lineBreakMode = NSLineBreakByCharWrapping;
     NSDictionary *attributes = @{NSFontAttributeName: [UIFont systemFontOfSize:30], NSParagraphStyleAttributeName: paragraphStyle};
     
-    [@"MagicView" drawWithRect:CGRectMake(width / 2 - 100, height / 2, 300, 100)
+    [[NSString stringWithFormat:@"%@", _identifier] drawWithRect:CGRectMake(width / 2 - 100, height / 2, 300, 100)
                          options:NSStringDrawingTruncatesLastVisibleLine
                       attributes:attributes
                          context:nil];
@@ -82,26 +89,9 @@
 
 #pragma mark -
 
-- (void)initAction
-{
-    [self addTarget:self action:@selector(triggerEvent:) forControlEvents:UIControlEventAllEvents];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(triggerNotification:)
-                                                 name:kStrAllEventsNotification
-                                               object:nil];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(triggerTouchEvent:)
-                                                 name:kStrTouchBeginEventNotification
-                                               object:nil];
-}
-
 - (void)triggerEvent:(id)sender
 {
-#if DEBUG
-    NSLog(@"triggerEvent: sender: %@", sender);
-#endif
+    NSLog(@"triggerEvent: id: %@ sender: %@", _identifier, sender);
 }
 
 - (void)triggerNotification:(NSNotification*)notification
@@ -116,8 +106,7 @@
     UIEvent *event = [obj objectForKey:kStrUIEventKey];
     
     
-    
-//    NSLog(@"sendAction: event: %@", event);
+//    NSLog(@"sendAction: id: %@ event: %@", _identifier, event);
     
     UITouch *touch = [[event allTouches] allObjects][0];
     if (touch.phase == UITouchPhaseBegan)
@@ -134,6 +123,7 @@
     }
 }
 
+/*
 - (void)triggerTouchEvent:(NSNotification*)notification
 {
     NSDictionary *obj = notification.object;
@@ -147,17 +137,14 @@
     
     [super sendAction:action to:self forEvent:event];
 }
-
-- (void)showResult:(NSString *)nsLog
-{
-    resultLabel.text = nsLog;
-}
+ */
 
 - (void)showResultPoint:(CGPoint)point
 {
     resultLabel.text = [NSString stringWithFormat:@"x:%f, y:%f", point.x, point.y];
 }
 
+#pragma mark - ClickEffect
 
 #if ClickEffect
 

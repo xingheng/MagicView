@@ -10,4 +10,6 @@
 
 @interface MagicView : UIControl
 
+@property (nonatomic, strong) NSString *identifier;
+
 @end
